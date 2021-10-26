@@ -9,7 +9,7 @@ const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-console.log(uri);
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
