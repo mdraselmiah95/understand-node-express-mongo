@@ -13,7 +13,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
   } finally {
-    await client.close();
+    // await client.close();
   }
 }
 run().catch(console.dir);
